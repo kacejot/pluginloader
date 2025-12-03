@@ -59,6 +59,7 @@ endfunction()
 pluginloader_add_impl(no_proxy "src/proxy/none.cpp")
 pluginloader_add_impl(d3d11 "src/proxy/d3d11.cpp")
 pluginloader_add_impl(dsound "src/proxy/dsound.cpp" "src/proxy/dsound.def")
+pluginloader_add_impl(winmm "src/proxy/winmm.cpp")
 pluginloader_add_impl(xinput1_3 "src/proxy/xinput1_3.cpp" "src/proxy/xinput1_3.def")
 
 install(
